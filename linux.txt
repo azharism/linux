@@ -1,0 +1,70 @@
+unix-minix-linux-----ubuntu, centos,debian fedora
+
+cat > file1
+hello world---
+cltr+D
+cat >> fie1
+cat file file2 > all
+stat file1
+time stamp
+
+ctrl +x y enter for nano exit
+
+cat -n file1
+===================================================================
+troubleshooting commands in linux or ubuntu-------------------
+1.uname -a
+
+2.dmesg----Use the command dmesg to show the contents of the boot log. This is a good way to find errors at startup:
+3.sudo apt purge (package-name)
+4.cltr+o cltr+x  then enter -------if we overwrite the data in second time via Nano 
+5.hostname -i
+6.
+
+=============================================================================
+
+time stamp-------------------------------------------
+1.access time    ---touch -a 
+2.modify time    ---tocuh -m
+3.update time
+----------------------------------------------------------------
+stat file1 ---to view the file time stamp
+
+
+que.1---
+
+-how to cut and paste fiel
+-how to copy a file from one to another
+echo--command
+
+echo may name is khan >azhar
+echo hello wolrd >> azhar
+
+echo >azhar
+
+===============================================================================
+
+grep
+sort--
+ipconfig
+ifconfig
+head tail
+===============================================================================
+
+chkconfig httpd on
+chkconfig httpd off
+===============================================================================
+1. useradd zaid     (to see user go in /etc/passwd file--)
+2.groupadd techgiant (to see group /etc/group)
+3.gpasswd -a ron techgiant (to add single user in techgiant group-----only existing user added in group)
+4.gpasswd -M swati, rutuja, sagar, abhishek(for adding multiple existing user in group)
+5. sudo usermod -aG minix avish  (we can add via this command also)
+=============================================================================================================
+softlink and hard link------------------------
+1. ln -s file1 softlink
+2. ln file1 backupfile
+
+
+
+
+
