@@ -76,6 +76,8 @@ chkconfig httpd off
 softlink and hard link------------------------
 1. ln -s file1 softlink    (for softlink creation)
 2. ln file1 backupfile     (for hardlink creation)
+3.cat -n /etc/shadow       (password storation)
+4.cat -n /etc/gshadow      (gpassword storation)
 
 
 
