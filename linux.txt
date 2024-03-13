@@ -64,6 +64,20 @@ softlink and hard link------------------------
 1. ln -s file1 softlink
 2. ln file1 backupfile
 
+chkconfig httpd on
+chkconfig httpd off
+===============================================================================
+1. useradd zaid     (to see user go in /etc/passwd file--)
+2.groupadd techgiant (to see group /etc/group)
+3.gpasswd -a ron techgiant (to add single user in techgiant group-----only existing user added in group)
+4.gpasswd -M swati, rutuja, sagar, abhishek(for adding multiple existing user in group)
+5. sudo usermod -aG minix avish  (we can add via this command also)
+=============================================================================================================
+softlink and hard link------------------------
+1. ln -s file1 softlink    (for softlink creation)
+2. ln file1 backupfile     (for hardlink creation)
+
+
 
 
 
