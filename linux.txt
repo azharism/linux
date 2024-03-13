@@ -78,6 +78,16 @@ softlink and hard link------------------------
 2. ln file1 backupfile     (for hardlink creation)
 3.cat -n /etc/shadow       (password storation)
 4.cat -n /etc/gshadow      (gpassword storation)
+============================================================================
+log check for troubleshoot----------------------
+
+sudo cat /var/log/syslog
+sudo cat /var/log/kern.log
+sudo cat /var/log/apache2/error.log
+sudo cat /var/log/nginx/error.log
+sudo journalctl -xe
+uptime
+
 
 
 
