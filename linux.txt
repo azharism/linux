@@ -87,6 +87,9 @@ sudo cat /var/log/apache2/error.log
 sudo cat /var/log/nginx/error.log
 sudo journalctl -xe
 uptime
+tail -qF sys.log
+
+tail -qF syslog
 
 
 
