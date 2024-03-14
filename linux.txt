@@ -15,11 +15,11 @@ cat -n file1
 troubleshooting commands in linux or ubuntu-------------------
 1.uname -a
 
-2.dmesg----Use the command dmesg to show the contents of the boot log. This is a good way to find errors at startup:
-3.sudo apt purge (package-name)
+2.dmesg    --Use the command dmesg to show the contents of the boot log. This is a good way to find errors at startup:
+3.sudo apt purge (package-name)-----------to uninstall the package and remove
 4.cltr+o cltr+x  then enter -------if we overwrite the data in second time via Nano 
 5.hostname -i
-6.
+6. sudo apt remove  (package-name)
 
 =============================================================================
 
@@ -90,6 +90,16 @@ uptime
 tail -qF sys.log
 
 tail -qF syslog
+
+systemctl status check-mk-agent.socket
+sudo systemclt reset -failed    (used for reload the systemd service)
+type ls
+!  (pid name)
+!!  
+
+ls --color=auto
+
+
 
 
 
