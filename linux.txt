@@ -1,16 +1,16 @@
 unix-minix-linux-----ubuntu, centos,debian fedora
 
-cat > file1
-hello world---
-cltr+D
-cat >> fie1
-cat file file2 > all
-stat file1
-time stamp
+1.cat > file1
+2.hello world---
+3.cltr+D
+4.cat >> fie1
+5.cat file file2 > all
+6.stat file1
+7.time stamp
 
-ctrl +x y enter for nano exit
+8.ctrl +x y enter for nano exit
 
-cat -n file1
+9.cat -n file1
 ===================================================================
 troubleshooting commands in linux or ubuntu-------------------
 1.uname -a
@@ -28,7 +28,7 @@ time stamp-------------------------------------------
 2.modify time    ---tocuh -m
 3.update time
 ----------------------------------------------------------------
-stat file1 ---to view the file time stamp
+4.stat file1 ---to view the file time stamp
 
 
 que.1---
@@ -37,22 +37,22 @@ que.1---
 -how to copy a file from one to another
 echo--command
 
-echo may name is khan >azhar
-echo hello wolrd >> azhar
+1.echo may name is khan >azhar
+2.echo hello wolrd >> azhar
 
-echo >azhar
+3.echo >azhar
 
 ===============================================================================
 
-grep
-sort--
-ipconfig
-ifconfig
-head tail
+1.grep
+2.sort--
+3.ipconfig
+4.ifconfig
+5.head tail
 ===============================================================================
 
-chkconfig httpd on
-chkconfig httpd off
+6.chkconfig httpd on
+7.chkconfig httpd off
 ===============================================================================
 1. useradd zaid     (to see user go in /etc/passwd file--)
 2.groupadd techgiant (to see group /etc/group)
@@ -64,8 +64,8 @@ softlink and hard link------------------------
 1. ln -s file1 softlink
 2. ln file1 backupfile
 
-chkconfig httpd on
-chkconfig httpd off
+3.chkconfig httpd on
+4.chkconfig httpd off
 ===============================================================================
 1. useradd zaid     (to see user go in /etc/passwd file--)
 2.groupadd techgiant (to see group /etc/group)
@@ -79,25 +79,26 @@ softlink and hard link------------------------
 3.cat -n /etc/shadow       (password storation)
 4.cat -n /etc/gshadow      (gpassword storation)
 ============================================================================
-log check for troubleshoot----------------------
+5.log check for troubleshoot----------------------
 
-sudo cat /var/log/syslog
-sudo cat /var/log/kern.log
-sudo cat /var/log/apache2/error.log
-sudo cat /var/log/nginx/error.log
-sudo journalctl -xe
-uptime
-tail -qF sys.log
+6.sudo cat /var/log/syslog
+7.sudo cat /var/log/kern.log
+8.sudo cat /var/log/apache2/error.log
+9.sudo cat /var/log/nginx/error.log
+10.sudo journalctl -xe
+11.uptime
+12.tail -qF sys.log
 
-tail -qF syslog
+13.tail -qF syslog
 
-systemctl status check-mk-agent.socket
-sudo systemclt reset -failed    (used for reload the systemd service)
-type ls
-!  (pid name)
-!!  
+14.systemctl status check-mk-agent.socket
+15.sudo systemclt reset -failed    (used for reload the systemd service)
+16.type ls
+17.!  (pid name)
+18!!  
 
-ls --color=auto
+19.ls --color=auto
+20.neofetch  ------(used to displays information about your system — like kernel version, shell, and hardware — next to an ASCII logo of your Linux distro)
 
 
 
