@@ -1,7 +1,7 @@
 unix-minix-linux-----ubuntu, centos,debian fedora
 
 1.cat > file1
-2.hello world---
+2.hello world   enter---
 3.cltr+D
 4.cat >> fie1
 5.cat file file2 > all
@@ -70,7 +70,7 @@ softlink and hard link------------------------
 1. useradd zaid     (to see user go in /etc/passwd file--)
 2.groupadd techgiant (to see group /etc/group)
 3.gpasswd -a ron techgiant (to add single user in techgiant group-----only existing user added in group)
-4.gpasswd -M swati, rutuja, sagar, abhishek(for adding multiple existing user in group)
+4.gpasswd -M swati,rutuja,sagar,abhishek daalchini ----------(for adding multiple existing user in group)
 5. sudo usermod -aG minix avish  (we can add via this command also)
 =============================================================================================================
 softlink and hard link------------------------
@@ -99,6 +99,42 @@ softlink and hard link------------------------
 
 19.ls --color=auto
 20.neofetch  ------(used to displays information about your system — like kernel version, shell, and hardware — next to an ASCII logo of your Linux distro)
+
+21. screenfetch --------( Similar to Neofetch, Screenfetch displays system information, including the operating system, kernel version, CPU, GPU, memory, and more, in a colorful ASCII art logo.
+
+Inxi: ------------------------Inxi is a versatile command-line tool that provides detailed information about hardware, system, and network configurations. It can display information about CPUs, GPUs, memory, storage, network interfaces, and more.
+
+=======================================================================================================================================
+
+1. tar -cvf (create verbrose forcefully)
+2.tar -xvf (extract the tar file)    tar full form ---(tape archive)
+3.gunzip
+example======================================================
+4.tar -cvf dirx.tar dirx     (mention the tar dir with tar and the directory name)
+5.tar -xvf dirx.tar     (for untar the file)
+=====to compress the tar file ---------------------
+1.gzip dirx.tar
+2.gunzip dirx.tar.gz    (for uncompress the file)
+======================================================================================
+access mode and permission---------------------------------------user, group, other or  owner, group, other
+4 - read  - r
+2 - write - w
+1- execute - x
+
+
+chmod ---- used to change change the access mode of a file
+chown -----used to change the owner of a fiel or directory
+chgrp  -- used to change the group of file or directory
+
+===============================================================
+chmod 777 file1
+other method is --------------
+chmod u=r,g=r,o=w, file1
+chmod u+x,g-r,o+x file1
+================================================================
+chown azhar file
+chgrp linux file1
+
 
 
 
