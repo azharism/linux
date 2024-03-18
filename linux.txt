@@ -106,7 +106,7 @@ Inxi: ------------------------Inxi is a versatile command-line tool that provide
 
 =======================================================================================================================================
 
-1. tar -cvf (create verbrose forcefully)
+1. tar -cvf (create verbose forcefully)
 2.tar -xvf (extract the tar file)    tar full form ---(tape archive)
 3.gunzip
 example======================================================
