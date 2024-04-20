@@ -7,6 +7,13 @@ unix-minix-linux-----ubuntu, centos,debian fedora
 5.cat file file2 > all
 6.stat file1
 7.time stamp
+touch file1
+stat file1
+=========================
+touch -a file1 
+stat file1
+touch -m file1
+stat file1
 
 8.ctrl +x y enter for nano exit
 
@@ -27,6 +34,11 @@ time stamp-------------------------------------------
 1.access time    ---touch -a 
 2.modify time    ---tocuh -m
 3.update time
+
+touch -a file1 
+stat file1
+touch -m file1
+stat file1
 ----------------------------------------------------------------
 4.stat file1 ---to view the file time stamp
 
