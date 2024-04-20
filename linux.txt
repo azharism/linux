@@ -148,7 +148,7 @@ chown azhar file
 chgrp linux file1
 ==============================================================
 to exit from nano editor 
-ctrl +x ctrl + y
+ctrl +x ctrl + y then enter
 
 
 
