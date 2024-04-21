@@ -188,6 +188,11 @@ Example: egrep "apple|orange" fruits.txt will search for lines containing either
 Each of these commands serves a specific purpose in searching for patterns or text within files or processes.
 
 
+==================================================================================================================================
+rsync=====================================
+
+
+
 
 
 
