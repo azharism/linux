@@ -148,8 +148,44 @@ chown azhar file
 chgrp linux file1
 ==============================================================
 to exit from nano editor 
-ctrl +x ctrl + y then enter
+ctrl +x ctrl +y then enter
 
+================================================================================================================================
+pgrep 
+zgrep
+grep
+pdfgrep
+fgrep
+egrep
+
+=======================================================================
+pgrep:------------------------------
+Description: pgrep looks through the currently running processes and lists the process IDs (PIDs) of the matching processes.
+Example: pgrep firefox will return the PID(s) of the Firefox process(es) if it's running.
+
+
+
+
+zgrep:=====================================
+Description: zgrep searches through compressed files (gzip compressed) for a specific pattern.
+Example: zgrep "error" logfile.gz will search for the word "error" in the compressed log file logfile.gz.
+
+grep:=======================================
+Description: grep searches for a specific pattern in files.
+Example: grep "apple" fruits.txt will search for the word "apple" in the file fruits.txt.
+
+pdfgrep:========================================
+Description: pdfgrep searches for patterns in PDF files.
+Example: pdfgrep "OpenAI" report.pdf will search for the word "OpenAI" in the PDF document report.pdf.
+
+fgrep:=====================================================================================
+Description: fgrep (or grep -F) searches for fixed strings. It treats the patterns as literal strings rather than regular expressions.
+Example: fgrep "hello" file.txt will search for the exact string "hello" in the file file.txt.
+
+egrep:====================================================================================================================
+Description: egrep (or grep -E) searches for patterns using extended regular expressions (regex).
+Example: egrep "apple|orange" fruits.txt will search for lines containing either "apple" or "orange" in the file fruits.txt.
+Each of these commands serves a specific purpose in searching for patterns or text within files or processes.
 
 
 
