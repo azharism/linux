@@ -201,6 +201,9 @@ file system types---
 3.ext2
 4 ext3
 5.ext4
+==========================================================
+grep --global regular expression print
+find and locate command
 
 
 
