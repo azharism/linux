@@ -194,7 +194,13 @@ rsync=====================================
 1. ifconfig eth0
 
 Ping (Packet INternet Groper)
-
+====================================================
+file system types---
+1.xfs
+2 ext
+3.ext2
+4 ext3
+5.ext4
 
 
 
