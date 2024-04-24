@@ -204,7 +204,43 @@ file system types---
 ==========================================================
 grep --global regular expression print
 find and locate command
+============================================================================
 
+1. mkdir newFolder              # make a new folder 'newFolder'
+
+2. mkdir .NewFolder              # make a hidden directory (also . before a file to make it hidden)
+
+3. mkdir A B C D                  #make multiple directories at the same time
+
+4. mkdir /home/user/Mydirectory   # make a new folder in a specific location
+
+5. mkdir -p  A/B/C/D              # make a nested directory
+===============================================================================================================
+Directoy commands---------------------------------------------------
+1. pwd --> print work directory. Gives the present working directory.
+
+2. cd path_to_directory --> change directory to the provided path
+
+3. cd ~  or just cd  --> change directory to the home directory
+
+4. cd - --> Go to the last working directory.
+
+ 5. cd .. --> change directory to one step back.
+
+ 6. cd ../.. --> Change directory to 2 levels back.
+
+ 7. mkdir  directoryName --> to make a directory in a specific location
+=========================================================================================================================
+
+1. ls -l--> list the files and directories in long list format with extra information
+
+2. ls -a --> list all including hidden files and directory
+
+3. ls *.sh --> list all the files having .sh extension.
+
+4. ls -i  --> list the files and directories with index numbers inodes
+
+5. ls -d */ --> list only directories.(we can also specify a pattern)
 
 
 
