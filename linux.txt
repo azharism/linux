@@ -242,6 +242,17 @@ Directoy commands---------------------------------------------------
 
 5. ls -d */ --> list only directories.(we can also specify a pattern)
 
+===============================================================================
+1. awk -F':' '{ print $1}' /etc/passwd  ( )
+2. Using id command, you can get the ID of any username. Every user has an id assigned to it and the user is identified with the help of this id. By default, this id is also the group id of the user.  
+3. id username
+4. shellcheck your_script.sh   (used to check the shell script file is correct or not)
+
+
+
+
+
+
 
 
 
