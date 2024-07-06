@@ -249,6 +249,9 @@ Directoy commands---------------------------------------------------
 4. shellcheck your_script.sh   (used to check the shell script file is correct or not)
 5. bash -n  your_script.sh (without execution it check the script of the file)
 
+=================================================================================================================================================
+
+
 
 
 
