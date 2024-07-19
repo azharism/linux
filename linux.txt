@@ -255,6 +255,9 @@ how to upload file from local to server coomand below
 scp -i "pem file" filename ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com
 scp -i "MANTO.pem" data.txt ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu    --- for file upload
 scp -i "MANTO.pem" -r folder/directory ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu 
+awk 
+
+awk '{print $1 }' friends.txt
 
 
 
