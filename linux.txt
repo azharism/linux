@@ -250,6 +250,14 @@ Directoy commands---------------------------------------------------
 5. bash -n  your_script.sh (without execution it check the script of the file)
 
 =================================================================================================================================================
+1. sort -r file.txt
+how to upload file from local to server coomand below
+scp -i "pem file" filename ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com
+scp -i "MANTO.pem" data.txt ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu    --- for file upload
+scp -i "MANTO.pem" -r folder/directory ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu 
+
+
+
 
 
 
