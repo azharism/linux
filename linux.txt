@@ -251,10 +251,14 @@ Directoy commands---------------------------------------------------
 
 =================================================================================================================================================
 1. sort -r file.txt
-how to upload file from local to server coomand below
+how to upload file from local to server coomand below on ubuntu mahcine
 scp -i "pem file" filename ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com
 scp -i "MANTO.pem" data.txt ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu    --- for file upload
-scp -i "MANTO.pem" -r folder/directory ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu 
+scp -i "MANTO.pem" -r folder/directory ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu
+
+for linux machine--
+
+ scp -i "linux-2024.pem" "WhatsApp Image 2024-11-08 at 01.03.24_3e25a68d.jpg" ec2-user@ec2-13-201-172-152.ap-south-1.compute.amazonaws.com:/home/ec2-user/
 awk 
 
 awk '{print $1 }' friends.txt
