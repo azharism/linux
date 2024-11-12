@@ -262,6 +262,18 @@ for linux machine--
 awk 
 
 awk '{print $1 }' friends.txt
+====================================================================================
+
+to expand the exist root volume of ubuntu server from 8gb to 30gb commands as follows--
+1. lsblk
+2. df -h /
+3. sudo apt update
+4. sudo apt install -y cloud-guest-utils
+5. sudo growpart /dev/xvda 1   (replace the name xvda with ur device name )
+6. sudo resize2fs /dev/xvda1
+7. df -h /
+
+
 
 
 
