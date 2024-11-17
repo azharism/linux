@@ -272,6 +272,15 @@ to expand the exist root volume of ubuntu server from 8gb to 30gb commands as fo
 5. sudo growpart /dev/xvda 1   (replace the name xvda with ur device name )
 6. sudo resize2fs /dev/xvda1
 7. df -h /
+================================================================================================
+
+to change the user existing passwd command---
+1. sudo passwd xyz
+2.sudo usermode -aG docker $USER
+3.newgrp docker
+4.id ubuntu
+5. id docker
+6.sleep 10 -- for sleep terminal for 10 second
 
 
 
