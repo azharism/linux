@@ -282,9 +282,15 @@ to change the user existing passwd command---
 5. id docker
 6.sleep 10 -- for sleep terminal for 10 second
 ============================================================================
-adding user in visudo command=====================
+adding user in sudo visudo file command=====================
 azhar ALL=(ALL:ALL) ALL  ---WHERE azhar is username
 azhar ALL=(ALL) NOPASSWD:
+su - azhar or sudo su azhar
+azhar ALL=(ALL) NOPASSWD: /sbin/reboot, /sbin/shutdown
+===================================================================================================
+awsk text precessing commands  =================================
+
+
 
 
 
