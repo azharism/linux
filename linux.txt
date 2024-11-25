@@ -306,7 +306,12 @@ vim employee.txt
 6. awk -F, 'NR > 1 {if ($4 > max) max = $4} END {print "Highest Salary:", max}' employees.txt   find max salary
 7.awk -F, '$3 == "HR" {print $2, $3}' employees.txt ---  List Employees in a Specific Department
 8. awk -F, 'NR > 1 {sum += $4; count++} END {print "Average Salary:", sum/count}' employees.txt  ---Calculate the Average Salary
-9.
+======================================================================================================================================
+grep command =================================
+1.grep -i "math" students.txt
+2.grep -c "Science" students.txt   --- cont the number
+3. 
+
 
 
 
