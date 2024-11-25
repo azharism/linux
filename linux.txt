@@ -289,6 +289,27 @@ su - azhar or sudo su azhar
 azhar ALL=(ALL) NOPASSWD: /sbin/reboot, /sbin/shutdown
 ===================================================================================================
 awsk text precessing commands  =================================
+vim employee.txt
+ ID,Name,Department,Salary
+1,John Doe,Engineering,75000
+2,Jane Smith,Marketing,62000
+3,Emily Davis,HR,58000
+4,Michael Brown,Engineering,80000
+5,Susan Wilson,Marketing,67000
+6,Tom Lee,HR,56000
+----------------------------
+1.awk -F, '{print $2, $4}' employees.txt --  Print Names and Salaries
+2.awk -F, '$3 == "Engineering" {print $0}' employees.txt  ---
+3. awk -F, '{if (NR > 1) sum += $4} END {print "Total Salary:", sum}' employees.txt  --- Calculate Total Salary:
+4. awk -F, '$4 > 60000 {print $0}' employees.txt   --  Find Employees with Salary Greater Than $60,000
+5. awk -F, 'NR == 1 || $3 == "Engineering" {print $2, $3, $4}' employees.txt   --- Display Specific Columns with Column Headers
+6. awk -F, 'NR > 1 {if ($4 > max) max = $4} END {print "Highest Salary:", max}' employees.txt   find max salary
+7.awk -F, '$3 == "HR" {print $2, $3}' employees.txt ---  List Employees in a Specific Department
+8. awk -F, 'NR > 1 {sum += $4; count++} END {print "Average Salary:", sum/count}' employees.txt  ---Calculate the Average Salary
+9.
+
+
+
 
 
 
