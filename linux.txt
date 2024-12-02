@@ -310,7 +310,25 @@ vim employee.txt
 grep command =================================
 1.grep -i "math" students.txt
 2.grep -c "Science" students.txt   --- cont the number
-3. 
+=====================================================================================================================================
+
+
+remote host setup------
+config file structure
+
+Host stage.*
+  User tech
+  IdentityFile ~/.ssh/id_ed25519   or id-rsa
+--------------------------------
+Host stage.*
+  User tech
+  IdentityFile ~/.ssh/id_rsa
+
+
+
+
+
+
 
 
 
