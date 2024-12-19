@@ -255,6 +255,7 @@ how to upload file from local to server coomand below on ubuntu mahcine
 scp -i "pem file" filename ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com
 scp -i "MANTO.pem" data.txt ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu    --- for file upload
 scp -i "MANTO.pem" -r folder/directory ubuntu@ec2-52-90-209-126.compute-1.amazonaws.com:/home/ubuntu
+scp -i "ampoonia-key.pem" -r "new-file" ubuntu@ec2-43-205-204-178.ap-south-1.compute.amazonaws.com:/home/ubuntu  ----syso
 
 for linux machine--
 
